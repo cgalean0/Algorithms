@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="catalannumber.CatalanNumberTest" time="6.61" tests="27" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/nahuel/Documents/university/analisis_y_diseño_de_algoritmos/projects/practico-4-cgalean0/catalan/target/test-classes:/home/nahuel/Documents/university/analisis_y_diseño_de_algoritmos/projects/practico-4-cgalean0/catalan/target/classes:/home/nahuel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/nahuel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/nahuel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/nahuel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/nahuel/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/home/nahuel/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-suite-api/1.8.0-RC1/junit-platform-suite-api-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-suite/1.8.0-RC1/junit-platform-suite-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.8.0-RC1/junit-platform-suite-engine-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-runner/1.8.0-RC1/junit-platform-runner-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.0-RC1/junit-platform-launcher-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.8.0-RC1/junit-platform-suite-commons-1.8.0-RC1.jar:/home/nahuel/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/nahuel/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-21-jdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/nahuel/Documents/university/analisis_y_diseño_de_algoritmos/projects/practico-4-cgalean0/catalan/target/surefire/surefirebooter12464861258912994283.jar /home/nahuel/Documents/university/analisis_y_diseño_de_algoritmos/projects/practico-4-cgalean0/catalan/target/surefire 2025-10-14T13-29-46_627-jvmRun1 surefire3328539952918697171tmp surefire_04367739072467767956tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/nahuel/Documents/university/analisis_y_diseño_de_algoritmos/projects/practico-4-cgalean0/catalan/target/test-classes:/home/nahuel/Documents/university/analisis_y_diseño_de_algoritmos/projects/practico-4-cgalean0/catalan/target/classes:/home/nahuel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/nahuel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/nahuel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/nahuel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/nahuel/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/home/nahuel/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-suite-api/1.8.0-RC1/junit-platform-suite-api-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-suite/1.8.0-RC1/junit-platform-suite-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.8.0-RC1/junit-platform-suite-engine-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-runner/1.8.0-RC1/junit-platform-runner-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.0-RC1/junit-platform-launcher-1.8.0-RC1.jar:/home/nahuel/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.8.0-RC1/junit-platform-suite-commons-1.8.0-RC1.jar:/home/nahuel/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/nahuel/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/nahuel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/usr/lib/jvm/temurin-21-jdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/nahuel/Documents/university/analisis_y_diseño_de_algoritmos/projects/practico-4-cgalean0/catalan"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/nahuel/Documents/university/analisis_y_diseño_de_algoritmos/projects/practico-4-cgalean0/catalan/target/surefire/surefirebooter12464861258912994283.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+9-LTS"/>
+    <property name="user.name" value="nahuel"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-33-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.8+9"/>
+    <property name="localRepository" value="/home/nahuel/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="/home/nahuel/Documents/university/analisis_y_diseño_de_algoritmos/projects/practico-4-cgalean0/catalan"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.8+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="MemoCatalanNumberTest{int}[1]" classname="catalannumber.CatalanNumberTest" time="0.032"/>
+  <testcase name="MemoCatalanNumberTest{int}[2]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="MemoCatalanNumberTest{int}[3]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="MemoCatalanNumberTest{int}[4]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="MemoCatalanNumberTest{int}[5]" classname="catalannumber.CatalanNumberTest" time="0"/>
+  <testcase name="MemoCatalanNumberTest{int}[6]" classname="catalannumber.CatalanNumberTest" time="0"/>
+  <testcase name="MemoCatalanNumberTest{int}[7]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="MemoCatalanNumberTest{int}[8]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="MemoCatalanNumberTest{int}[9]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="MemoCatalanNumberTest{int}[10]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="MemoCatalanNumberTest{int}[11]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="MemoCatalanNumberTest{int}[12]" classname="catalannumber.CatalanNumberTest" time="0"/>
+  <testcase name="testEfficient" classname="catalannumber.CatalanNumberTest" time="6.489">
+    <error message="testEfficient() timed out after 1 second" type="java.util.concurrent.TimeoutException">java.util.concurrent.TimeoutException: testEfficient() timed out after 1 second
+</error>
+  </testcase>
+  <testcase name="catalanNumberTest{int, long}[1]" classname="catalannumber.CatalanNumberTest" time="0.004"/>
+  <testcase name="catalanNumberTest{int, long}[2]" classname="catalannumber.CatalanNumberTest" time="0"/>
+  <testcase name="catalanNumberTest{int, long}[3]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="catalanNumberTest{int, long}[4]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="catalanNumberTest{int, long}[5]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="catalanNumberTest{int, long}[6]" classname="catalannumber.CatalanNumberTest" time="0"/>
+  <testcase name="catalanNumberTest{int, long}[7]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="PDCatalanNumberTest{int, long}[1]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="PDCatalanNumberTest{int, long}[2]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="PDCatalanNumberTest{int, long}[3]" classname="catalannumber.CatalanNumberTest" time="0.001"/>
+  <testcase name="PDCatalanNumberTest{int, long}[4]" classname="catalannumber.CatalanNumberTest" time="0"/>
+  <testcase name="PDCatalanNumberTest{int, long}[5]" classname="catalannumber.CatalanNumberTest" time="0"/>
+  <testcase name="PDCatalanNumberTest{int, long}[6]" classname="catalannumber.CatalanNumberTest" time="0"/>
+  <testcase name="PDCatalanNumberTest{int, long}[7]" classname="catalannumber.CatalanNumberTest" time="0"/>
+</testsuite>

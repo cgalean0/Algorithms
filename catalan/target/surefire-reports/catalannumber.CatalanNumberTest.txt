@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: catalannumber.CatalanNumberTest
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.61 s <<< FAILURE! - in catalannumber.CatalanNumberTest
+testEfficient  Time elapsed: 6.489 s  <<< ERROR!
+java.util.concurrent.TimeoutException: testEfficient() timed out after 1 second
+
