@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: levenshtein.LevenshteinTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.131 s <<< FAILURE! - in levenshtein.LevenshteinTest
+levenshteinPDTest{String, String, int}[1]  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You MUST implement this method
+	at levenshtein.LevenshteinTest.levenshteinPDTest(LevenshteinTest.java:44)
+
+levenshteinMemoTest{String, String, int}[1]  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You MUST implement this method
+	at levenshtein.LevenshteinTest.levenshteinMemoTest(LevenshteinTest.java:53)
+
