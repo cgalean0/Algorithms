@@ -1,0 +1,4 @@
+package util.benchmarking.generated;
+public class CombinatoriaBenchmarkTest_BenchmarkState_jmhType extends CombinatoriaBenchmarkTest_BenchmarkState_jmhType_B3 {
+}
+

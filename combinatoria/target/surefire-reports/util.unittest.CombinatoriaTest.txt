@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: util.unittest.CombinatoriaTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 2.45 s <<< FAILURE! - in util.unittest.CombinatoriaTest
+memoCombinatoriaTest{int, int}[1]  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You MUST implement this method
+	at util.unittest.CombinatoriaTest.memoCombinatoriaTest(CombinatoriaTest.java:78)
+
+memoCombinatoriaTest{int, int}[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You MUST implement this method
+	at util.unittest.CombinatoriaTest.memoCombinatoriaTest(CombinatoriaTest.java:78)
+
+memoCombinatoriaTest{int, int}[3]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You MUST implement this method
+	at util.unittest.CombinatoriaTest.memoCombinatoriaTest(CombinatoriaTest.java:78)
+
+memoCombinatoriaTest{int, int}[4]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You MUST implement this method
+	at util.unittest.CombinatoriaTest.memoCombinatoriaTest(CombinatoriaTest.java:78)
+
+memoCombinatoriaTest{int, int}[5]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You MUST implement this method
+	at util.unittest.CombinatoriaTest.memoCombinatoriaTest(CombinatoriaTest.java:78)
+
+memoCombinatoriaTest{int, int}[6]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You MUST implement this method
+	at util.unittest.CombinatoriaTest.memoCombinatoriaTest(CombinatoriaTest.java:78)
+
+memoCombinatoriaTest{int, int}[7]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You MUST implement this method
+	at util.unittest.CombinatoriaTest.memoCombinatoriaTest(CombinatoriaTest.java:78)
+
